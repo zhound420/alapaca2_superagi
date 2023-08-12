@@ -13,4 +13,4 @@ class Place_tradeInput(BaseModel):
         def _execute(self, ):
             trader_instance = TraderOriginal()
             result = trader_instance.place_trade()
-        return result
+            return result
