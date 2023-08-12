@@ -11,8 +11,7 @@ class MonitorTool(BaseTool):
     args_schema: Type[BaseModel] = MonitorInput
     description: str = "Tool for monitor method."
 
-def _execute(self, ):
-        return {}
-    trader_instance = TraderOriginal()
-    result = trader_instance.monitor()
-    return result
+    def _execute(self, ):
+        trader_instance = TraderOriginal()
+        result = trader_instance.monitor()
+        return result
