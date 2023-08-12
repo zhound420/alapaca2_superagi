@@ -11,6 +11,6 @@ class Get_positions_infoInput(BaseModel):
         description: str = "Tool for get_positions_info method."
 
         def _execute(self, ):
-            trader_instance = TraderOriginal()
-            result = trader_instance.get_positions_info()
+        trader_instance = TraderOriginal()
+        result = trader_instance.get_positions_info()
         return result

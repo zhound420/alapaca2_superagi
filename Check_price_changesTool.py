@@ -11,6 +11,6 @@ class Check_price_changesInput(BaseModel):
         description: str = "Tool for check_price_changes method."
 
         def _execute(self, ):
-            trader_instance = TraderOriginal()
-            result = trader_instance.check_price_changes()
+        trader_instance = TraderOriginal()
+        result = trader_instance.check_price_changes()
         return result

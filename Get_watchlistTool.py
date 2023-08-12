@@ -11,6 +11,6 @@ class Get_watchlistInput(BaseModel):
         description: str = "Tool for get_watchlist method."
 
         def _execute(self, ):
-            trader_instance = TraderOriginal()
-            result = trader_instance.get_watchlist()
+        trader_instance = TraderOriginal()
+        result = trader_instance.get_watchlist()
         return result

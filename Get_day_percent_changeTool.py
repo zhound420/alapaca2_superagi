@@ -11,6 +11,6 @@ class Get_day_percent_changeInput(BaseModel):
         description: str = "Tool for get_day_percent_change method."
 
         def _execute(self, ):
-            trader_instance = TraderOriginal()
-            result = trader_instance.get_day_percent_change()
+        trader_instance = TraderOriginal()
+        result = trader_instance.get_day_percent_change()
         return result

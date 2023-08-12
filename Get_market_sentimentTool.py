@@ -11,6 +11,6 @@ class Get_market_sentimentInput(BaseModel):
         description: str = "Tool for get_market_sentiment method."
 
         def _execute(self, ):
-            trader_instance = TraderOriginal()
-            result = trader_instance.get_market_sentiment()
+        trader_instance = TraderOriginal()
+        result = trader_instance.get_market_sentiment()
         return result

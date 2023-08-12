@@ -11,6 +11,6 @@ class Get_sym_newsInput(BaseModel):
         description: str = "Tool for get_sym_news method."
 
         def _execute(self, ):
-            trader_instance = TraderOriginal()
-            result = trader_instance.get_sym_news()
+        trader_instance = TraderOriginal()
+        result = trader_instance.get_sym_news()
         return result

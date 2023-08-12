@@ -11,6 +11,6 @@ class Is_market_openInput(BaseModel):
         description: str = "Tool for is_market_open method."
 
         def _execute(self, ):
-            trader_instance = TraderOriginal()
-            result = trader_instance.is_market_open()
+        trader_instance = TraderOriginal()
+        result = trader_instance.is_market_open()
         return result
