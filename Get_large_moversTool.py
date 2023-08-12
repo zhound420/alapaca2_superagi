@@ -3,7 +3,7 @@ from pydantic import BaseModel, Field
 from typing import Type
 
 class Get_large_moversInput(BaseModel):
-    
+    pass
 
 class Get_large_moversTool(BaseTool):
     name: str = "Get_large_movers Tool"

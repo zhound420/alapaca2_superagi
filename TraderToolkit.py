@@ -10,3 +10,6 @@ class TraderToolkit(BaseToolkit):
 
     def get_tools(self) -> List[BaseTool]:
         return [CloseTradeTool, Get_account_informationTool, Get_positionsTool, Place_tradeTool, Get_positions_infoTool, Get_watchlistTool, Add_to_watchlistTool, Get_market_sentimentTool, Get_sym_newsTool, Get_large_moversTool, Get_ideasTool, MonitorTool, Check_price_changesTool, Get_current_priceTool, Get_day_percent_changeTool, Is_market_openTool()]
+
+    def get_env_keys(self) -> List[str]:
+        return []
