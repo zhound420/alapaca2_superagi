@@ -1,4 +1,5 @@
-from superagi.tools.base_tool import BaseToolfrom pydantic import BaseModel, Field
+from superagi.tools.base_tool import BaseTool
+from pydantic import BaseModel, Field
 from typing import Typeclass MonitorInput(BaseModel):    
 
 class MonitorTool(BaseTool):
