@@ -1,3 +1,6 @@
+from superagi.tools.base_tool import BaseTool
+from pydantic import BaseModel, Field
+from typing import Type
 
 class Check_price_changesInput(BaseModel):
     
