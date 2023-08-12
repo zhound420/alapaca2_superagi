@@ -1,3 +1,6 @@
+from alpaca_trade_api import REST, StreamConn
+from TraderOriginal import TraderOriginal
+
 from superagi.tools.base_tool import BaseTool
 from pydantic import BaseModel, Field
 from typing import Type
@@ -13,4 +16,4 @@ class Get_account_informationInput(BaseModel):
         def _execute(self, ):
             trader_instance = TraderOriginal()
             result = trader_instance.get_account_information()
-        return result
+            return result

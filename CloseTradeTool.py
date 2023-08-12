@@ -2,8 +2,10 @@ from superagi.tools.base_tool import BaseTool
 from pydantic import BaseModel, Field
 from typing import Type
 
+
 class CloseTradeInput(BaseModel):
     symbol: str = Field(..., description="Symbol of the trade to close")
+
 
 class CloseTradeTool(BaseTool):
     name: str = "Close Trade Tool"
